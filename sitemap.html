@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitemap - Kingdom Reality Ministries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+     
+        .sitemap-section {
+            padding: 60px 0;
+            background: white;
+        }
+        
+        .sitemap-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 50px;
+            background: #f8faff;
+            border-radius: 40px;
+            box-shadow: 0 20px 40px rgba(0,48,135,0.1);
+            border: 1px solid rgba(212,175,55,0.2);
+        }
+        
+        .sitemap-title {
+            font-size: 2.8rem;
+            color: #003087;
+            margin-bottom: 40px;
+            font-weight: 700;
+            text-align: center;
+        }
+        
+        .sitemap-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+        
+        .sitemap-section-card {
+            background: white;
+            border-radius: 30px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,48,135,0.1);
+            border: 1px solid rgba(212,175,55,0.2);
+        }
+        
+        .sitemap-section-title {
+            font-size: 1.8rem;
+            color: #003087;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #D4AF37;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .sitemap-section-title i {
+            color: #D4AF37;
+            font-size: 2rem;
+        }
+        
+        .sitemap-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .sitemap-list li {
+            margin-bottom: 15px;
+        }
+        
+        .sitemap-list a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 15px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .sitemap-list a:hover {
+            background: rgba(212,175,55,0.1);
+            color: #003087;
+            transform: translateX(10px);
+        }
+        
+        .sitemap-list a i {
+            color: #D4AF37;
+            width: 25px;
+            font-size: 1.2rem;
+        }
+        
+        .sitemap-list .coming-soon {
+            color: #95a5a6;
+            cursor: not-allowed;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 15px;
+        }
+        
+        .sitemap-list .coming-soon i {
+            color: #95a5a6;
+        }
+        
+        .coming-soon-badge {
+            background: #D4AF37;
+            color: #003087;
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 20px;
+            margin-left: 10px;
+            font-weight: 600;
+        }
+        
+        .ministry-sublist {
+            margin-left: 40px;
+            margin-top: 10px;
+            border-left: 2px dashed #D4AF37;
+            padding-left: 20px;
+        }
+        
+        .ministry-sublist li {
+            margin-bottom: 10px;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .sitemap-container {
+                padding: 30px;
+            }
+            
+            .sitemap-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .sitemap-title {
+                font-size: 2.2rem;
+            }
+            
+            .sitemap-section-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+   
+    <header class="header-wrapper" id="header">
+        <nav class="hanging-header">
+            <div class="logo-container">
+                <img src="logo.png" alt="Kingdom Reality Ministries Logo" class="logo">
+                <span class="church-name">Kingdom Reality Ministries</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="events.html" class="nav-link">Upcoming Events</a></li>
+                <li><a href="ministries.html" class="nav-link">Ministries</a></li>
+                <li><a href="contact.html" class="nav-link lets-talk">Let's Talk</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="page-hero" id="page-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1 class="page-hero-title">Sitemap</h1>
+            <div class="page-hero-breadcrumb">
+                <a href="index.html">Home</a> / <span>Sitemap</span>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sitemap-section">
+        <div class="container">
+            <div class="sitemap-container">
+                <h1 class="sitemap-title">Website Sitemap</h1>
+                
+                <div class="sitemap-grid">
+             
+                    <div class="sitemap-section-card">
+                        <h2 class="sitemap-section-title">
+                            <i class="fas fa-home"></i>
+                            Main Pages
+                        </h2>
+                        <ul class="sitemap-list">
+                            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="events.html"><i class="fas fa-chevron-right"></i> Upcoming Events</a></li>
+                            <li><a href="ministries.html"><i class="fas fa-chevron-right"></i> Ministries</a></li>
+                            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Let's Talk (Contact)</a></li>
+                        </ul>
+                    </div>
+
+                 
+                    <div class="sitemap-section-card">
+                        <h2 class="sitemap-section-title">
+                            <i class="fas fa-hands-helping"></i>
+                            Our Ministries
+                        </h2>
+                        <ul class="sitemap-list">
+                            <li><a href="ministries.html#mercy"><i class="fas fa-heart"></i> Mercy Ministry</a></li>
+                            <li><a href="ministries.html#kings"><i class="fas fa-crown"></i> Kings Ministry (Men)</a></li>
+                            <li><a href="ministries.html#queens"><i class="fas fa-gem"></i> Queens Ministry (Women)</a></li>
+                            <li><a href="ministries.html#shine"><i class="fas fa-bolt"></i> SHINE Youth Church</a></li>
+                            <li><a href="ministries.html#sunday"><i class="fas fa-child"></i> Sunday School</a></li>
+                        </ul>
+                    </div>
+
+                
+                    <div class="sitemap-section-card">
+                        <h2 class="sitemap-section-title">
+                            <i class="fas fa-gavel"></i>
+                            Legal
+                        </h2>
+                        <ul class="sitemap-list">
+                            <li><a href="privacy.html"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+                            <li><a href="terms.html"><i class="fas fa-file-contract"></i> Terms of Use</a></li>
+                            <li><a href="sitemap.html"><i class="fas fa-sitemap"></i> Sitemap (You are here)</a></li>
+                        </ul>
+                    </div>
+
+                 
+                    <div class="sitemap-section-card">
+                        <h2 class="sitemap-section-title">
+                            <i class="fas fa-calendar-alt"></i>
+                            2026 Events
+                        </h2>
+                        <ul class="sitemap-list">
+                            <li><a href="events.html#jan"><i class="fas fa-calendar"></i> January - SHINE XP</a></li>
+                            <li><a href="events.html#feb"><i class="fas fa-calendar"></i> February - SHINE XP</a></li>
+                            <li><a href="events.html#mar"><i class="fas fa-calendar"></i> March - Child Dedication, SHINE XP, Prayer Kesha</a></li>
+                            <li><a href="events.html#apr"><i class="fas fa-calendar"></i> April - Good Friday, Easter Monday, SHINE XP</a></li>
+                            <li><a href="events.html#may"><i class="fas fa-calendar"></i> May - Logos Conference, SHINE XP</a></li>
+                            <li><a href="events.html#jun"><i class="fas fa-calendar"></i> June - Baptism, SHINE XP, Prayer Kesha</a></li>
+                            <li><a href="events.html#jul"><i class="fas fa-calendar"></i> July - SHINE XP</a></li>
+                            <li><a href="events.html#aug"><i class="fas fa-calendar"></i> August - Purpose Conference, SHINE XP</a></li>
+                            <li><a href="events.html#sep"><i class="fas fa-calendar"></i> September - Child Dedication, SHINE XP, Prayer Kesha</a></li>
+                            <li><a href="events.html#oct"><i class="fas fa-calendar"></i> October - SHINE XP</a></li>
+                            <li><a href="events.html#nov"><i class="fas fa-calendar"></i> November - Father's Birthday, SHINE XP</a></li>
+                            <li><a href="events.html#dec"><i class="fas fa-calendar"></i> December - Power Conference, Book Launch, Home Cell Final, SHINE XP, Crossover Kesha</a></li>
+                        </ul>
+                    </div>
+
+                
+                    <div class="sitemap-section-card">
+                        <h2 class="sitemap-section-title">
+                            <i class="fas fa-link"></i>
+                            Quick Links
+                        </h2>
+                        <ul class="sitemap-list">
+                            <li><a href="events.html#download-section"><i class="fas fa-download"></i> Download 2026 Calendar</a></li>
+                            <li><a href="contact.html#prayer"><i class="fas fa-hands-praying"></i> Prayer Request</a></li>
+                            <li><a href="contact.html"><i class="fas fa-paper-plane"></i> Send a Message</a></li>
+                            <li><a href="about.html#pastors"><i class="fas fa-user-tie"></i> Meet Our Pastors</a></li>
+                            <li><a href="about.html#beliefs"><i class="fas fa-bible"></i> What We Believe</a></li>
+                        </ul>
+                    </div>
+
+                 
+                    <div class="sitemap-section-card">
+                        <h2 class="sitemap-section-title">
+                            <i class="fas fa-clock"></i>
+                            Coming Soon
+                        </h2>
+                        <ul class="sitemap-list">
+                            <li class="coming-soon">
+                                <i class="fas fa-video"></i> Sermons & Messages
+                                <span class="coming-soon-badge">Soon</span>
+                            </li>
+                            <li class="coming-soon">
+                                <i class="fas fa-donate"></i> Online Giving
+                                <span class="coming-soon-badge">Soon</span>
+                            </li>
+                            <li class="coming-soon">
+                                <i class="fas fa-photo-video"></i> Gallery
+                                <span class="coming-soon-badge">Soon</span>
+                            </li>
+                            <li class="coming-soon">
+                                <i class="fas fa-podcast"></i> Podcast
+                                <span class="coming-soon-badge">Soon</span>
+                            </li>
+                            <li class="coming-soon">
+                                <i class="fas fa-user-plus"></i> Membership
+                                <span class="coming-soon-badge">Soon</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+             
+                <div style="margin-top: 40px; padding: 30px; background: white; border-radius: 20px; border: 1px solid rgba(212,175,55,0.2);">
+                    <h3 style="color: #003087; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                        <i class="fas fa-phone-alt" style="color: #D4AF37;"></i>
+                        Need Help Finding Something?
+                    </h3>
+                    <p style="color: #2c3e50; margin-bottom: 15px;">If you couldn't find what you're looking for, please don't hesitate to contact us.</p>
+                    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                        <a href="contact.html" style="display: inline-flex; align-items: center; gap: 8px; background: #003087; color: white; padding: 10px 25px; border-radius: 50px; text-decoration: none;">Contact Us <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Kingdom Reality Ministries Logo" class="footer-logo-img">
+                        <span class="footer-church-name">Kingdom Reality Ministries</span>
+                    </div>
+                    <p class="footer-description">A place where PRINCIPLE meets PURPOSE, and PURPOSE unlocks POWER. Join us as we pursue Kingdom realities together.</p>
+                    <div class="footer-social">
+                        <a href="https://web.facebook.com/kingdomreality" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/@kingdomrealityministriestv" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-menu">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="events.html" class="footer-link">Upcoming Events</a></li>
+                        <li><a href="contact.html" class="footer-link">Let's Talk</a></li>
+                        <li><a href="ministries.html" class="footer-link">Ministries</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ngong Road, Nairobi, Kenya</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+254 721 570775</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@kingdomreality.org</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Service Times: Sun 9am | Thur 5pm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2026 Kingdom Reality Ministries. All Rights Reserved.
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="privacy.html" class="bottom-link">Privacy Policy</a>
+                    <a href="terms.html" class="bottom-link">Terms of Use</a>
+                    <a href="sitemap.html" class="bottom-link">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
