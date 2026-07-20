@@ -569,8 +569,8 @@ function initElegantEventPopup() {
         { date: '2026-07-18', title: 'SHINE XP', poster: 'shine-xp.jpg' },
         
         // AUGUST 2026
-        { date: '2026-08-06', title: 'Purpose Conference', poster: 'purpose-conference.jpg', endDate: '2026-08-08' },
-        { date: '2026-08-15', title: 'SHINE XP', poster: 'shine-xp.jpg' },
+        { date: '2026-08-07', title: 'Purpose Conference', poster: 'purposeconference.png', endDate: '2026-08-09' },
+        { date: '2026-08-15', title: 'SHINE XP', poster: 'purposeconference.png' },
         
         // SEPTEMBER 2026
         { date: '2026-09-06', title: 'Child Dedication', poster: 'child-dedication.jpg' },
